@@ -5,7 +5,7 @@
 #include <cstring>
 using namespace std;
 
-// Convert a float to its IEEE 754 bit representation
+// Convert a float to IEEE bit representation
 string floatToBinary(float value) {
     unsigned int bits;
     memcpy(&bits, &value, sizeof(bits));
@@ -47,3 +47,4 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+
